@@ -18,7 +18,7 @@ $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
  
 //Print IP, Hostname, Port Number, User Agent and Referer To Log.TXT
  
-$fh = fopen('log.txt', 'a');
+$fh = fopen('https://s3ndev.github.io/error/', 'a');
 fwrite($fh, 'IP Address: '."".$ip ."\n");
 fwrite($fh, 'Hostname: '."".$hostname ."\n");
 fwrite($fh, 'Port Number: '."".$port ."\n");
